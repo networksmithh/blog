@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on shauns_blog</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>https://networksmithh.github.io/posts/</link>
         <description>Recent content in Posts on shauns_blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
-        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://networksmithh.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>beginning my hackthebox challenge.</title>
-            <link>http://localhost:1313/posts/first/</link>
+            <link>https://networksmithh.github.io/posts/first/</link>
             <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
             
-            <guid>http://localhost:1313/posts/first/</guid>
+            <guid>https://networksmithh.github.io/posts/first/</guid>
             <description>This is the first post on my new blog, I have 2 main objectives for this blog.
 -Create content so I can learn revise and refine my learning.-Provide a resource for myself to look back at and be proud of writing.I will aim to post 2x writeups aswell as learning notes throughout each
 Introduction to Go Templates Go templates provide an extremely simple template language. It adheres to the belief that only the most basic of logic belongs in the template or view layer.</description>
@@ -237,7 +237,7 @@ is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> wi
 and skips the block if the variable is absent:</p>
 <pre tabindex="0"><code>{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
 &lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
+&lt;img src=&#34;https://networksmithh.github.io/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
  alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
 &lt;/span&gt;{{end}}
 </code></pre><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
